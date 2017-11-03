@@ -1,0 +1,14 @@
+[{
+    "title": "my article 2",
+    "body": "this is second article into the elastic search db.these articles are first fed into the db.Later we can get them with get requests to the url - 127.0.0.1/9200",
+    "keywords": "url,db,get"
+}, {
+
+    "title": "my article 1",
+    "body": "this is first article into the elastic search db.",
+    "keywords": "test,es,searching"
+}, {
+    "title": "my article 3",
+    "body": "this is yet another article into the elastic search db.these articles are being set up under articles index, article type and an id. url - 127.0.0.1/9200/articles/article/{id}",
+    "keywords": "url,article,index,type"
+}]
