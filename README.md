@@ -6,5 +6,10 @@
 ### also to get used to git.
 
 ## dependencies
-[fzaninotto/Faker](https://github.com/fzaninotto/Faker.git)
+- [fzaninotto/Faker](https://github.com/fzaninotto/Faker.git)
 clone this repository into [create_db](create_db/) folder and run **db_filler.php**.
+- For part-3, Elastic search, [Download the zip](https://www.elastic.co/downloads), run elastic search.bat. [change the jvm options if needed](https://stackoverflow.com/a/40333263/7314900);Then run `composer install` in the folder containing composer.json. A vendor folder is created with necessary dependencies. 
+require the autoload file
+```require_once('vendor/autoload.php'); ```
+Syntax for version - 5 to create a client is 
+```$client = Elasticsearch\ClientBuilder::create()->setHosts( ['127.0.0.1:9200'])->build();```
